@@ -79,7 +79,7 @@ def mario(c, e, g, low_g):
     return song
 
 def mario_at(octave):
-    c, e = tri(octave * c_freq), tri(octave * e_freq)
+    c, e = tri(octave * c_freq), tri(octave * e_freq) # 옥타브
     g, low_g = tri(octave * g_freq), tri(octave * g_freq / 2)
     return mario(c, e, g, low_g)
 
