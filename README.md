@@ -1,2 +1,2 @@
-# CS61a-Fall-2021
+# cs61a-fall-2021
 Berkeley CS 61a Lecture Implementation
